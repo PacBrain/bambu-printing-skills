@@ -1,0 +1,4 @@
+interface:
+  display_name: "Bambu Printing"
+  short_description: "Source-grounded Bambu material and slicing workflows"
+  default_prompt: "Use $bambu-printing to prepare and verify a Bambu Studio print project."

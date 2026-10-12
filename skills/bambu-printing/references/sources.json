@@ -1,0 +1,272 @@
+[
+  {
+    "id": "B01",
+    "url": "https://wiki.bambulab.com/en/software/bambu-studio/how-to-set-slicing-parameters",
+    "title": "Setting Guide of Slicing Parameters | Bambu Lab Wiki",
+    "accessed": "2026-10-12",
+    "characters": 4811,
+    "sha256": "7ea631dcb57ed7faf91ad8041a8942fc3994549a9eefb9ed53542302cbe8972c",
+    "status": "readable"
+  },
+  {
+    "id": "B02",
+    "url": "https://wiki.bambulab.com/en/filament/pla",
+    "title": "PLA Usage Guide | Bambu Lab Wiki",
+    "accessed": "2026-10-12",
+    "characters": 25859,
+    "sha256": "68b3f5ba0c17e8475f6e32d23212823d14955f85411bd62826934341faf5cf78",
+    "status": "readable"
+  },
+  {
+    "id": "B03",
+    "url": "https://wiki.bambulab.com/en/filament/petg",
+    "title": "PETG Usage Guide | Bambu Lab Wiki",
+    "accessed": "2026-10-12",
+    "characters": 16037,
+    "sha256": "ab235d1ca68cbf547093412379fc35375b5e029877b3bd54f7e8d6196d68d50c",
+    "status": "readable"
+  },
+  {
+    "id": "B04",
+    "url": "https://wiki.bambulab.com/en/knowledge-sharing/tpu-printing-guide",
+    "title": "TPU Printing Guide | Bambu Lab Wiki",
+    "accessed": "2026-10-12",
+    "characters": 12685,
+    "sha256": "51510d2ad9b2edd0b5b2f8417131747c235f5781c0d65f04949b6f9e3d9a3d69",
+    "status": "readable"
+  },
+  {
+    "id": "B05",
+    "url": "https://wiki.bambulab.com/en/filament/abs_asa_pc",
+    "title": "ABS / ASA / PC Usage Guide | Bambu Lab Wiki",
+    "accessed": "2026-10-12",
+    "characters": 20554,
+    "sha256": "62f89c88c3b5f5895ca73ecd3621d62b6f75338d2e4a59661ba14462533d181c",
+    "status": "readable"
+  },
+  {
+    "id": "B06",
+    "url": "https://wiki.bambulab.com/en/filament/absgf_pa6gf",
+    "title": "ABS GF / PA6 GF Glass Fiber Filament Usage Guide | Bambu Lab Wiki",
+    "accessed": "2026-10-12",
+    "characters": 16084,
+    "sha256": "c4d1a59543f7221d72bc9d9c7717b54ab146122eea55c826b237b743b981cec8",
+    "status": "readable"
+  },
+  {
+    "id": "B07",
+    "url": "https://wiki.bambulab.com/en/filament/asacf_pahtcf",
+    "title": "ASA CF / PAHT CF Usage Guide | Bambu Lab Wiki",
+    "accessed": "2026-10-12",
+    "characters": 18442,
+    "sha256": "e4fdef5c728a8251522e2c075afd6d9ff2990b6ff94faec435971934746e0654",
+    "status": "readable"
+  },
+  {
+    "id": "B08",
+    "url": "https://wiki.bambulab.com/en/filament/petcf_ppacf",
+    "title": "PET-CF / PPA-CF / PPS-CF / PA6 CF  Carbon Fibers Filament Usage Guide | Bambu Lab Wiki",
+    "accessed": "2026-10-12",
+    "characters": 19024,
+    "sha256": "fd2c851ad1583403ac87e37bbebb5f3cf1fb4779af9c148f8ef7ef384cd17d1a",
+    "status": "readable"
+  },
+  {
+    "id": "B09",
+    "url": "https://wiki.bambulab.com/en/filament/support",
+    "title": "Support Filament Usage Guide | Bambu Lab Wiki",
+    "accessed": "2026-10-12",
+    "characters": 19322,
+    "sha256": "3006e968a0d1ba1710c58635189917ed9b98778e6c74801f318d4ad313f3501f",
+    "status": "readable"
+  },
+  {
+    "id": "B10",
+    "url": "https://wiki.bambulab.com/en/general/filament-guide-material-table",
+    "title": "Filament guide - Printer, Nozzle, AMS, Build Plate, Glue Compatibility and Required Parameters | Bambu Lab Wiki",
+    "accessed": "2026-10-12",
+    "characters": 18465,
+    "sha256": "8a46b109cb2ecf2519b70769321bcd30579d6364dc00bac3f0e98f80748c6a00",
+    "status": "readable"
+  },
+  {
+    "id": "B11",
+    "url": "https://wiki.bambulab.com/en/filament-acc/filament/dry-filament",
+    "title": "Filament Drying Recommendations | Bambu Lab Wiki",
+    "accessed": "2026-10-12",
+    "characters": 18447,
+    "sha256": "59a2a5e5f19c23e97da0fa2704e79bfa2a40082fe974c27ff34dccbf8a1b5365",
+    "status": "readable"
+  },
+  {
+    "id": "B12",
+    "url": "https://wiki.bambulab.com/en/ams-2-pro/manual/drying-function",
+    "title": "Filament drying guide for AMS 2 Pro and AMS HT | Bambu Lab Wiki",
+    "accessed": "2026-10-12",
+    "characters": 8355,
+    "sha256": "360534714f89cab061fabb8faffb1f9304bb3918fa53bb39f0dd77c337ad4a3e",
+    "status": "readable"
+  },
+  {
+    "id": "B13",
+    "url": "https://wiki.bambulab.com/en/software/bambu-studio/calibration_flow_rate",
+    "title": "Flow Rate Calibration | Bambu Lab Wiki",
+    "accessed": "2026-10-12",
+    "characters": 11877,
+    "sha256": "56153a8ebf2d3efd302ee6f767075cdcd1302fed312678811b4cb6f637c88221",
+    "status": "readable"
+  },
+  {
+    "id": "B14",
+    "url": "https://wiki.bambulab.com/en/software/bambu-studio/calibration_pa",
+    "title": "Flow Dynamics Calibration | Bambu Lab Wiki",
+    "accessed": "2026-10-12",
+    "characters": 18403,
+    "sha256": "43bde39ffe68878884fae92252862966ca0e7a756712786b92451c32b3f40960",
+    "status": "readable"
+  },
+  {
+    "id": "B15",
+    "url": "https://wiki.bambulab.com/en/software/bambu-studio/auto-cooling",
+    "title": "Cooling Settings | Bambu Lab Wiki",
+    "accessed": "2026-10-12",
+    "characters": 6984,
+    "sha256": "12c48d8609a884e405afa94335ce3c6587f87d8cb1e70f46901cd0c012baf0a6",
+    "status": "readable"
+  },
+  {
+    "id": "B16",
+    "url": "https://wiki.bambulab.com/en/software/bambu-studio/Seam",
+    "title": "Seam settings | Bambu Lab Wiki",
+    "accessed": "2026-10-12",
+    "characters": 8277,
+    "sha256": "2d228fdca32e5c9158763e1d5d5f475b3a2925a5fd7b08aa9ffcb7a6031b22cf",
+    "status": "readable"
+  },
+  {
+    "id": "B17",
+    "url": "https://wiki.bambulab.com/en/software/bambu-studio/support",
+    "title": "Support | Bambu Lab Wiki",
+    "accessed": "2026-10-12",
+    "characters": 23420,
+    "sha256": "761f0b61c25967a0080e0a50e1de91e18bcfbbdddb0eef8452f588692305040b",
+    "status": "readable"
+  },
+  {
+    "id": "B18",
+    "url": "https://wiki.bambulab.com/en/software/bambu-studio/auto-brim",
+    "title": "Brim | Bambu Lab Wiki",
+    "accessed": "2026-10-12",
+    "characters": 3619,
+    "sha256": "7c71e5ee02dcd974debc7ff7d6f418471be6eeb0a53056f7848889c2322ddd25",
+    "status": "readable"
+  },
+  {
+    "id": "B19",
+    "url": "https://wiki.bambulab.com/en/bambu-studio/parameter",
+    "title": "Bambu Studio Print Settings | Bambu Lab Wiki",
+    "accessed": "2026-10-12",
+    "characters": 825,
+    "sha256": "2c52850f2dcaa1831e99a7d84381042cc00ef88bef69561635d6014f99e14112",
+    "status": "readable"
+  },
+  {
+    "id": "B20",
+    "url": "https://wiki.bambulab.com/en/software/bambu-studio/view-slicing-information",
+    "title": "View slicing information | Bambu Lab Wiki",
+    "accessed": "2026-10-12",
+    "characters": 7159,
+    "sha256": "d4a598ad2c8229c7c05d821495a861f02a261e421438d1fc6b1d38d1897de398",
+    "status": "readable"
+  },
+  {
+    "id": "B21",
+    "url": "https://wiki.bambulab.com/en/software/bambu-studio/3mf-compatibility",
+    "title": "Bambu Studio 3mf Compatibility | Bambu Lab Wiki",
+    "accessed": "2026-10-12",
+    "characters": 5151,
+    "sha256": "6ccdbc1cb448a97030f319c6922048402974fa13536f4e3bf2cd4d3b417c0035",
+    "status": "readable"
+  },
+  {
+    "id": "B22",
+    "url": "https://wiki.bambulab.com/en/knowledge-sharing/common-print-quality-problem",
+    "title": "Common print quality problems and solutions | Bambu Lab Wiki",
+    "accessed": "2026-10-12",
+    "characters": 33297,
+    "sha256": "fd4beacdd457d0c54be9f1daee71ad91275922130497d2aeeb67f3c3d2117ba9",
+    "status": "readable"
+  },
+  {
+    "id": "B24",
+    "url": "https://github.com/bambulab/BambuStudio/wiki/Command-Line-Usage",
+    "title": "Command Line Usage · bambulab/BambuStudio Wiki · GitHub",
+    "accessed": "2026-10-12",
+    "characters": 3504,
+    "sha256": "7e3dfefc6554a48e142d3e2947d2e3604c1c2e6b68b3d598f1dbc6c2def36afd",
+    "status": "readable"
+  },
+  {
+    "id": "B25",
+    "url": "https://wiki.bambulab.com/en/software/bambu-studio/parameter/strength-advance-settings",
+    "title": "Strength Advanced Setting - Bambu Studio | Bambu Lab Wiki",
+    "accessed": "2026-10-12",
+    "characters": 8990,
+    "sha256": "8c60c71ce6c8417abaed86091f7ea6cb8a3018e56b3716a79fadb7d6f1747a52",
+    "status": "readable"
+  },
+  {
+    "id": "B26",
+    "url": "https://wiki.bambulab.com/en/software/bambu-studio/layer-height",
+    "title": "Layer height | Bambu Lab Wiki",
+    "accessed": "2026-10-12",
+    "characters": 5764,
+    "sha256": "9eb95100fe019cc4d33aebc8ff2d52d21e8c5959cb8a7e89ff8d8ddf6d98bbe2",
+    "status": "readable"
+  },
+  {
+    "id": "B27",
+    "url": "https://wiki.bambulab.com/en/software/bambu-studio/sequent-print",
+    "title": "Print-by-object | Bambu Lab Wiki",
+    "accessed": "2026-10-12",
+    "characters": 3056,
+    "sha256": "99d56922937d4bc2f81a4a1a4c3cbfd13c46b5f86cd9a06491897004bf200dc4",
+    "status": "readable"
+  },
+  {
+    "id": "B28",
+    "url": "https://wiki.bambulab.com/en/software/bambu-studio/slow-down-for-overhang",
+    "title": "Slow Down for Overhangs | Bambu Lab Wiki",
+    "accessed": "2026-10-12",
+    "characters": 4545,
+    "sha256": "4762e9b40836900f2cfd21817fa441731c9c3ba46a21cdb352dcf0f55aa8e362",
+    "status": "readable"
+  },
+  {
+    "id": "B29",
+    "url": "https://wiki.bambulab.com/en/software/bambu-studio/parameter/line-width",
+    "title": "Line width | Bambu Lab Wiki",
+    "accessed": "2026-10-12",
+    "characters": 5815,
+    "sha256": "157200cc2a6568220dda718e2f67774e7e9d7ce54d0c170865ee396195ba8762",
+    "status": "readable"
+  },
+  {
+    "id": "B30",
+    "url": "https://wiki.bambulab.com/en/software/bambu-studio/fill-patterns",
+    "title": "Fill Pattern Introduction | Bambu Lab Wiki",
+    "accessed": "2026-10-12",
+    "characters": 15391,
+    "sha256": "078a621ba6f085cc955946765be2cfbb473ead440a62aa6775ccb55ccf33b4a8",
+    "status": "readable"
+  },
+  {
+    "id": "B31",
+    "url": "https://wiki.bambulab.com/en/h2s",
+    "title": "H2S | Bambu Lab Wiki",
+    "accessed": "2026-10-12",
+    "characters": 7838,
+    "sha256": "ac622d187d80298b723b412a996ffc5b15af8dfaba80edf9bef39ab85564ccca",
+    "status": "readable"
+  }
+]

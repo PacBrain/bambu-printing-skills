@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+outputs/
+.dispatch-*/
+*.3dm
+*.stl
+*.3mf
+*.gcode
+*.step
+*.stp
