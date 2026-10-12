@@ -13,8 +13,14 @@ class ProfilesTest(unittest.TestCase):
     def tearDown(self):self.tmp.cleanup()
     def put(self,name,**data):(self.root/'machine'/(name+'.json')).write_text(json.dumps({'name':name,**data}))
     def test_parent_include_and_child_precedence(self):
-        self.put('parent',a=1,b=1);self.put('fragment',b=2,c=2);self.put('child',inherits='parent',include=['fragment'],c=3)
-        d=b.Profiles(self.root).resolve('machine','child');self.assertEqual([d[k] for k in ['a','b','c']],[1,2,3])
+        self.put('parent',a=1,machine_end_gcode='parent');self.put('fragment',machine_end_gcode='fragment');self.put('child',inherits='parent',include=['fragment'],machine_end_gcode='child')
+        d=b.Profiles(self.root).resolve('machine','child');self.assertEqual(d['a'],1);self.assertEqual(d['machine_end_gcode'],'child')
+    def test_parameter_include_is_not_blindly_merged(self):
+        self.put('fragment',a=2);self.put('child',include=['fragment'])
+        with self.assertRaisesRegex(ValueError,'Unsupported parameter include'):b.Profiles(self.root).resolve('machine','child')
+    def test_inherited_include_is_rejected(self):
+        self.put('parent',a=2);self.put('fragment',inherits='parent',machine_end_gcode='M400');self.put('child',include=['fragment'])
+        with self.assertRaisesRegex(ValueError,'Unsupported inherited'):b.Profiles(self.root).resolve('machine','child')
     def test_cycle_rejected(self):
         self.put('a',inherits='b');self.put('b',include=['a'])
         with self.assertRaisesRegex(ValueError,'cycle'):b.Profiles(self.root).resolve('machine','a')
@@ -73,7 +79,7 @@ class ArchiveTest(unittest.TestCase):
         with tempfile.TemporaryDirectory() as d:
             p=pathlib.Path(d)/'scene.3mf'
             main=f'<model xmlns="{ns}" xmlns:p="{pn}" unit="millimeter"><resources><object id="2"><components><component objectid="1" p:path="/3D/Objects/part.model" transform="1 0 0 0 1 0 0 0 1 10 0 0"/></components></object></resources><build><item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 30 40"/></build></model>'
-            part=f'<model xmlns="{ns}"><resources><object id="1"><mesh><vertices><vertex x="0" y="0" z="0"/><vertex x="2" y="3" z="4"/></vertices></mesh></object></resources></model>'
+            part=f'<model xmlns="{ns}"><resources><object id="1"><mesh><vertices><vertex x="0" y="0" z="0"/><vertex x="2" y="3" z="4"/><vertex x="1" y="1" z="0"/></vertices><triangles><triangle v1="0" v2="1" v3="2"/></triangles></mesh></object></resources></model>'
             with zipfile.ZipFile(p,'w') as z:z.writestr('3D/3dmodel.model',main);z.writestr('3D/Objects/part.model',part)
             r=b.inspect_3mf(p)
             self.assertEqual(r['build_objects'][0]['bounds_mm'],[[30,30,40],[32,33,44]])

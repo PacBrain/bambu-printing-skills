@@ -3,270 +3,674 @@
     "id": "B01",
     "url": "https://wiki.bambulab.com/en/software/bambu-studio/how-to-set-slicing-parameters",
     "title": "Setting Guide of Slicing Parameters | Bambu Lab Wiki",
-    "accessed": "2026-10-12",
-    "characters": 4811,
-    "sha256": "7ea631dcb57ed7faf91ad8041a8942fc3994549a9eefb9ed53542302cbe8972c",
-    "status": "readable"
+    "supported_claims": [
+      "切片参数主题导航；不作为全部参数已核验的证明"
+    ],
+    "applicability": "官方 Wiki 持续更新；既有摘要不固定软件版本，执行时按当前机型/材料/版本核对",
+    "previous_capture": {
+      "accessed": "2026-10-12",
+      "characters": 4811,
+      "sha256": "7ea631dcb57ed7faf91ad8041a8942fc3994549a9eefb9ed53542302cbe8972c",
+      "status": "readable"
+    },
+    "review_status": "historical_capture_not_rechecked_this_revision",
+    "review_note": "保留此前登记的提取摘要；本轮未重新读取正文，不将历史访问日期当作重新核验。"
   },
   {
     "id": "B02",
     "url": "https://wiki.bambulab.com/en/filament/pla",
     "title": "PLA Usage Guide | Bambu Lab Wiki",
-    "accessed": "2026-10-12",
-    "characters": 25859,
-    "sha256": "68b3f5ba0c17e8475f6e32d23212823d14955f85411bd62826934341faf5cf78",
-    "status": "readable"
+    "supported_claims": [
+      "PLA 系列区别、光泽与速度、腔内积热及牌号干燥要求"
+    ],
+    "applicability": "官方 Wiki 持续更新；既有摘要不固定软件版本，执行时按当前机型/材料/版本核对",
+    "previous_capture": {
+      "accessed": "2026-10-12",
+      "characters": 25859,
+      "sha256": "68b3f5ba0c17e8475f6e32d23212823d14955f85411bd62826934341faf5cf78",
+      "status": "readable"
+    },
+    "review_status": "historical_capture_not_rechecked_this_revision",
+    "review_note": "保留此前登记的提取摘要；本轮未重新读取正文，不将历史访问日期当作重新核验。"
   },
   {
     "id": "B03",
     "url": "https://wiki.bambulab.com/en/filament/petg",
     "title": "PETG Usage Guide | Bambu Lab Wiki",
-    "accessed": "2026-10-12",
-    "characters": 16037,
-    "sha256": "ab235d1ca68cbf547093412379fc35375b5e029877b3bd54f7e8d6196d68d50c",
-    "status": "readable"
+    "supported_claims": [
+      "PETG 系列、材料状态及干燥要求"
+    ],
+    "applicability": "官方 Wiki 持续更新；既有摘要不固定软件版本，执行时按当前机型/材料/版本核对",
+    "previous_capture": {
+      "accessed": "2026-10-12",
+      "characters": 16037,
+      "sha256": "ab235d1ca68cbf547093412379fc35375b5e029877b3bd54f7e8d6196d68d50c",
+      "status": "readable"
+    },
+    "review_status": "historical_capture_not_rechecked_this_revision",
+    "review_note": "保留此前登记的提取摘要；本轮未重新读取正文，不将历史访问日期当作重新核验。"
   },
   {
     "id": "B04",
     "url": "https://wiki.bambulab.com/en/knowledge-sharing/tpu-printing-guide",
     "title": "TPU Printing Guide | Bambu Lab Wiki",
-    "accessed": "2026-10-12",
-    "characters": 12685,
-    "sha256": "51510d2ad9b2edd0b5b2f8417131747c235f5781c0d65f04949b6f9e3d9a3d69",
-    "status": "readable"
+    "supported_claims": [
+      "普通软 TPU 与 TPU for AMS 的送料区别"
+    ],
+    "applicability": "官方 Wiki 持续更新；既有摘要不固定软件版本，执行时按当前机型/材料/版本核对",
+    "previous_capture": {
+      "accessed": "2026-10-12",
+      "characters": 12685,
+      "sha256": "51510d2ad9b2edd0b5b2f8417131747c235f5781c0d65f04949b6f9e3d9a3d69",
+      "status": "readable"
+    },
+    "review_status": "historical_capture_not_rechecked_this_revision",
+    "review_note": "保留此前登记的提取摘要；本轮未重新读取正文，不将历史访问日期当作重新核验。"
   },
   {
     "id": "B05",
     "url": "https://wiki.bambulab.com/en/filament/abs_asa_pc",
     "title": "ABS / ASA / PC Usage Guide | Bambu Lab Wiki",
-    "accessed": "2026-10-12",
-    "characters": 20554,
-    "sha256": "62f89c88c3b5f5895ca73ecd3621d62b6f75338d2e4a59661ba14462533d181c",
-    "status": "readable"
+    "supported_claims": [
+      "ABS/ASA/PC 的腔温、收缩及板面选择"
+    ],
+    "applicability": "官方 Wiki 持续更新；既有摘要不固定软件版本，执行时按当前机型/材料/版本核对",
+    "previous_capture": {
+      "accessed": "2026-10-12",
+      "characters": 20554,
+      "sha256": "62f89c88c3b5f5895ca73ecd3621d62b6f75338d2e4a59661ba14462533d181c",
+      "status": "readable"
+    },
+    "review_status": "historical_capture_not_rechecked_this_revision",
+    "review_note": "保留此前登记的提取摘要；本轮未重新读取正文，不将历史访问日期当作重新核验。"
   },
   {
     "id": "B06",
     "url": "https://wiki.bambulab.com/en/filament/absgf_pa6gf",
     "title": "ABS GF / PA6 GF Glass Fiber Filament Usage Guide | Bambu Lab Wiki",
-    "accessed": "2026-10-12",
-    "characters": 16084,
-    "sha256": "c4d1a59543f7221d72bc9d9c7717b54ab146122eea55c826b237b743b981cec8",
-    "status": "readable"
+    "supported_claims": [
+      "玻纤材料磨耗、干燥及适配条件"
+    ],
+    "applicability": "官方 Wiki 持续更新；既有摘要不固定软件版本，执行时按当前机型/材料/版本核对",
+    "previous_capture": {
+      "accessed": "2026-10-12",
+      "characters": 16084,
+      "sha256": "c4d1a59543f7221d72bc9d9c7717b54ab146122eea55c826b237b743b981cec8",
+      "status": "readable"
+    },
+    "review_status": "historical_capture_not_rechecked_this_revision",
+    "review_note": "保留此前登记的提取摘要；本轮未重新读取正文，不将历史访问日期当作重新核验。"
   },
   {
     "id": "B07",
     "url": "https://wiki.bambulab.com/en/filament/asacf_pahtcf",
     "title": "ASA CF / PAHT CF Usage Guide | Bambu Lab Wiki",
-    "accessed": "2026-10-12",
-    "characters": 18442,
-    "sha256": "e4fdef5c728a8251522e2c075afd6d9ff2990b6ff94faec435971934746e0654",
-    "status": "readable"
+    "supported_claims": [
+      "ASA-CF/PAHT-CF 的喷嘴及干燥条件"
+    ],
+    "applicability": "官方 Wiki 持续更新；既有摘要不固定软件版本，执行时按当前机型/材料/版本核对",
+    "previous_capture": {
+      "accessed": "2026-10-12",
+      "characters": 18442,
+      "sha256": "e4fdef5c728a8251522e2c075afd6d9ff2990b6ff94faec435971934746e0654",
+      "status": "readable"
+    },
+    "review_status": "historical_capture_not_rechecked_this_revision",
+    "review_note": "保留此前登记的提取摘要；本轮未重新读取正文，不将历史访问日期当作重新核验。"
   },
   {
     "id": "B08",
     "url": "https://wiki.bambulab.com/en/filament/petcf_ppacf",
     "title": "PET-CF / PPA-CF / PPS-CF / PA6 CF  Carbon Fibers Filament Usage Guide | Bambu Lab Wiki",
-    "accessed": "2026-10-12",
-    "characters": 19024,
-    "sha256": "fd2c851ad1583403ac87e37bbebb5f3cf1fb4779af9c148f8ef7ef384cd17d1a",
-    "status": "readable"
+    "supported_claims": [
+      "高温碳纤系列的温度、干燥与送料条件"
+    ],
+    "applicability": "官方 Wiki 持续更新；既有摘要不固定软件版本，执行时按当前机型/材料/版本核对",
+    "previous_capture": {
+      "accessed": "2026-10-12",
+      "characters": 19024,
+      "sha256": "fd2c851ad1583403ac87e37bbebb5f3cf1fb4779af9c148f8ef7ef384cd17d1a",
+      "status": "readable"
+    },
+    "review_status": "historical_capture_not_rechecked_this_revision",
+    "review_note": "保留此前登记的提取摘要；本轮未重新读取正文，不将历史访问日期当作重新核验。"
   },
   {
     "id": "B09",
     "url": "https://wiki.bambulab.com/en/filament/support",
     "title": "Support Filament Usage Guide | Bambu Lab Wiki",
-    "accessed": "2026-10-12",
-    "characters": 19322,
-    "sha256": "3006e968a0d1ba1710c58635189917ed9b98778e6c74801f318d4ad313f3501f",
-    "status": "readable"
+    "supported_claims": [
+      "支撑材料与主体匹配及界面用途"
+    ],
+    "applicability": "官方 Wiki 持续更新；既有摘要不固定软件版本，执行时按当前机型/材料/版本核对",
+    "previous_capture": {
+      "accessed": "2026-10-12",
+      "characters": 19322,
+      "sha256": "3006e968a0d1ba1710c58635189917ed9b98778e6c74801f318d4ad313f3501f",
+      "status": "readable"
+    },
+    "review_status": "historical_capture_not_rechecked_this_revision",
+    "review_note": "保留此前登记的提取摘要；本轮未重新读取正文，不将历史访问日期当作重新核验。"
   },
   {
     "id": "B10",
     "url": "https://wiki.bambulab.com/en/general/filament-guide-material-table",
     "title": "Filament guide - Printer, Nozzle, AMS, Build Plate, Glue Compatibility and Required Parameters | Bambu Lab Wiki",
-    "accessed": "2026-10-12",
-    "characters": 18465,
-    "sha256": "8a46b109cb2ecf2519b70769321bcd30579d6364dc00bac3f0e98f80748c6a00",
-    "status": "readable"
+    "supported_claims": [
+      "机型、喷嘴、AMS、板型兼容需按具体牌号核对"
+    ],
+    "applicability": "官方 Wiki 持续更新；既有摘要不固定软件版本，执行时按当前机型/材料/版本核对",
+    "previous_capture": {
+      "accessed": "2026-10-12",
+      "characters": 18465,
+      "sha256": "8a46b109cb2ecf2519b70769321bcd30579d6364dc00bac3f0e98f80748c6a00",
+      "status": "readable"
+    },
+    "review_status": "historical_capture_not_rechecked_this_revision",
+    "review_note": "保留此前登记的提取摘要；本轮未重新读取正文，不将历史访问日期当作重新核验。"
   },
   {
     "id": "B11",
     "url": "https://wiki.bambulab.com/en/filament-acc/filament/dry-filament",
     "title": "Filament Drying Recommendations | Bambu Lab Wiki",
-    "accessed": "2026-10-12",
-    "characters": 18447,
-    "sha256": "59a2a5e5f19c23e97da0fa2704e79bfa2a40082fe974c27ff34dccbf8a1b5365",
-    "status": "readable"
+    "supported_claims": [
+      "干燥温度时间按牌号和设备核对"
+    ],
+    "applicability": "官方 Wiki 持续更新；既有摘要不固定软件版本，执行时按当前机型/材料/版本核对",
+    "previous_capture": {
+      "accessed": "2026-10-12",
+      "characters": 18447,
+      "sha256": "59a2a5e5f19c23e97da0fa2704e79bfa2a40082fe974c27ff34dccbf8a1b5365",
+      "status": "readable"
+    },
+    "review_status": "historical_capture_not_rechecked_this_revision",
+    "review_note": "保留此前登记的提取摘要；本轮未重新读取正文，不将历史访问日期当作重新核验。"
   },
   {
     "id": "B12",
     "url": "https://wiki.bambulab.com/en/ams-2-pro/manual/drying-function",
     "title": "Filament drying guide for AMS 2 Pro and AMS HT | Bambu Lab Wiki",
-    "accessed": "2026-10-12",
-    "characters": 8355,
-    "sha256": "360534714f89cab061fabb8faffb1f9304bb3918fa53bb39f0dd77c337ad4a3e",
-    "status": "readable"
+    "supported_claims": [
+      "AMS 2 Pro/HT 干燥与送料是不同能力"
+    ],
+    "applicability": "官方 Wiki 持续更新；既有摘要不固定软件版本，执行时按当前机型/材料/版本核对",
+    "previous_capture": {
+      "accessed": "2026-10-12",
+      "characters": 8355,
+      "sha256": "360534714f89cab061fabb8faffb1f9304bb3918fa53bb39f0dd77c337ad4a3e",
+      "status": "readable"
+    },
+    "review_status": "historical_capture_not_rechecked_this_revision",
+    "review_note": "保留此前登记的提取摘要；本轮未重新读取正文，不将历史访问日期当作重新核验。"
   },
   {
     "id": "B13",
     "url": "https://wiki.bambulab.com/en/software/bambu-studio/calibration_flow_rate",
     "title": "Flow Rate Calibration | Bambu Lab Wiki",
-    "accessed": "2026-10-12",
-    "characters": 11877,
-    "sha256": "56153a8ebf2d3efd302ee6f767075cdcd1302fed312678811b4cb6f637c88221",
-    "status": "readable"
+    "supported_claims": [
+      "流量比例校准与机器适用条件"
+    ],
+    "applicability": "官方 Wiki 持续更新；既有摘要不固定软件版本，执行时按当前机型/材料/版本核对",
+    "previous_capture": {
+      "accessed": "2026-10-12",
+      "characters": 11877,
+      "sha256": "56153a8ebf2d3efd302ee6f767075cdcd1302fed312678811b4cb6f637c88221",
+      "status": "readable"
+    },
+    "review_status": "historical_capture_not_rechecked_this_revision",
+    "review_note": "保留此前登记的提取摘要；本轮未重新读取正文，不将历史访问日期当作重新核验。"
   },
   {
     "id": "B14",
     "url": "https://wiki.bambulab.com/en/software/bambu-studio/calibration_pa",
     "title": "Flow Dynamics Calibration | Bambu Lab Wiki",
-    "accessed": "2026-10-12",
-    "characters": 18403,
-    "sha256": "43bde39ffe68878884fae92252862966ca0e7a756712786b92451c32b3f40960",
-    "status": "readable"
+    "supported_claims": [
+      "Flow Dynamics/K 与流量比例不同"
+    ],
+    "applicability": "官方 Wiki 持续更新；既有摘要不固定软件版本，执行时按当前机型/材料/版本核对",
+    "previous_capture": {
+      "accessed": "2026-10-12",
+      "characters": 18403,
+      "sha256": "43bde39ffe68878884fae92252862966ca0e7a756712786b92451c32b3f40960",
+      "status": "readable"
+    },
+    "review_status": "historical_capture_not_rechecked_this_revision",
+    "review_note": "保留此前登记的提取摘要；本轮未重新读取正文，不将历史访问日期当作重新核验。"
   },
   {
     "id": "B15",
     "url": "https://wiki.bambulab.com/en/software/bambu-studio/auto-cooling",
     "title": "Cooling Settings | Bambu Lab Wiki",
-    "accessed": "2026-10-12",
-    "characters": 6984,
-    "sha256": "12c48d8609a884e405afa94335ce3c6587f87d8cb1e70f46901cd0c012baf0a6",
-    "status": "readable"
+    "supported_claims": [
+      "冷却依材料、桥接和层时间选择"
+    ],
+    "applicability": "官方 Wiki 持续更新；既有摘要不固定软件版本，执行时按当前机型/材料/版本核对",
+    "previous_capture": {
+      "accessed": "2026-10-12",
+      "characters": 6984,
+      "sha256": "12c48d8609a884e405afa94335ce3c6587f87d8cb1e70f46901cd0c012baf0a6",
+      "status": "readable"
+    },
+    "review_status": "historical_capture_not_rechecked_this_revision",
+    "review_note": "保留此前登记的提取摘要；本轮未重新读取正文，不将历史访问日期当作重新核验。"
   },
   {
     "id": "B16",
     "url": "https://wiki.bambulab.com/en/software/bambu-studio/Seam",
     "title": "Seam settings | Bambu Lab Wiki",
-    "accessed": "2026-10-12",
-    "characters": 8277,
-    "sha256": "2d228fdca32e5c9158763e1d5d5f475b3a2925a5fd7b08aa9ffcb7a6031b22cf",
-    "status": "readable"
+    "supported_claims": [
+      "接缝位置及 scarf seam 适用条件"
+    ],
+    "applicability": "官方 Wiki 持续更新；既有摘要不固定软件版本，执行时按当前机型/材料/版本核对",
+    "previous_capture": {
+      "accessed": "2026-10-12",
+      "characters": 8277,
+      "sha256": "2d228fdca32e5c9158763e1d5d5f475b3a2925a5fd7b08aa9ffcb7a6031b22cf",
+      "status": "readable"
+    },
+    "review_status": "historical_capture_not_rechecked_this_revision",
+    "review_note": "保留此前登记的提取摘要；本轮未重新读取正文，不将历史访问日期当作重新核验。"
   },
   {
     "id": "B17",
     "url": "https://wiki.bambulab.com/en/software/bambu-studio/support",
     "title": "Support | Bambu Lab Wiki",
-    "accessed": "2026-10-12",
-    "characters": 23420,
-    "sha256": "761f0b61c25967a0080e0a50e1de91e18bcfbbdddb0eef8452f588692305040b",
-    "status": "readable"
+    "supported_claims": [
+      "支撑类型、界面和间隙需按材料/几何选择"
+    ],
+    "applicability": "官方 Wiki 持续更新；既有摘要不固定软件版本，执行时按当前机型/材料/版本核对",
+    "previous_capture": {
+      "accessed": "2026-10-12",
+      "characters": 23420,
+      "sha256": "761f0b61c25967a0080e0a50e1de91e18bcfbbdddb0eef8452f588692305040b",
+      "status": "readable"
+    },
+    "review_status": "historical_capture_not_rechecked_this_revision",
+    "review_note": "保留此前登记的提取摘要；本轮未重新读取正文，不将历史访问日期当作重新核验。"
   },
   {
     "id": "B18",
     "url": "https://wiki.bambulab.com/en/software/bambu-studio/auto-brim",
     "title": "Brim | Bambu Lab Wiki",
-    "accessed": "2026-10-12",
-    "characters": 3619,
-    "sha256": "7c71e5ee02dcd974debc7ff7d6f418471be6eeb0a53056f7848889c2322ddd25",
-    "status": "readable"
+    "supported_claims": [
+      "裙边与悬垂支撑不同，宽度和间隙影响附着"
+    ],
+    "applicability": "官方 Wiki 持续更新；既有摘要不固定软件版本，执行时按当前机型/材料/版本核对",
+    "previous_capture": {
+      "accessed": "2026-10-12",
+      "characters": 3619,
+      "sha256": "7c71e5ee02dcd974debc7ff7d6f418471be6eeb0a53056f7848889c2322ddd25",
+      "status": "readable"
+    },
+    "review_status": "historical_capture_not_rechecked_this_revision",
+    "review_note": "保留此前登记的提取摘要；本轮未重新读取正文，不将历史访问日期当作重新核验。"
   },
   {
     "id": "B19",
     "url": "https://wiki.bambulab.com/en/bambu-studio/parameter",
     "title": "Bambu Studio Print Settings | Bambu Lab Wiki",
-    "accessed": "2026-10-12",
-    "characters": 825,
-    "sha256": "2c52850f2dcaa1831e99a7d84381042cc00ef88bef69561635d6014f99e14112",
-    "status": "readable"
+    "supported_claims": [
+      "参数导航；不能证明所有子页面已读取"
+    ],
+    "applicability": "官方 Wiki 持续更新；既有摘要不固定软件版本，执行时按当前机型/材料/版本核对",
+    "previous_capture": {
+      "accessed": "2026-10-12",
+      "characters": 825,
+      "sha256": "2c52850f2dcaa1831e99a7d84381042cc00ef88bef69561635d6014f99e14112",
+      "status": "readable"
+    },
+    "review_status": "historical_capture_not_rechecked_this_revision",
+    "review_note": "保留此前登记的提取摘要；本轮未重新读取正文，不将历史访问日期当作重新核验。"
   },
   {
     "id": "B20",
     "url": "https://wiki.bambulab.com/en/software/bambu-studio/view-slicing-information",
     "title": "View slicing information | Bambu Lab Wiki",
-    "accessed": "2026-10-12",
-    "characters": 7159,
-    "sha256": "d4a598ad2c8229c7c05d821495a861f02a261e421438d1fc6b1d38d1897de398",
-    "status": "readable"
+    "supported_claims": [
+      "切片预览检查路径类型、速度及流量"
+    ],
+    "applicability": "官方 Wiki 持续更新；既有摘要不固定软件版本，执行时按当前机型/材料/版本核对",
+    "previous_capture": {
+      "accessed": "2026-10-12",
+      "characters": 7159,
+      "sha256": "d4a598ad2c8229c7c05d821495a861f02a261e421438d1fc6b1d38d1897de398",
+      "status": "readable"
+    },
+    "review_status": "historical_capture_not_rechecked_this_revision",
+    "review_note": "保留此前登记的提取摘要；本轮未重新读取正文，不将历史访问日期当作重新核验。"
   },
   {
     "id": "B21",
     "url": "https://wiki.bambulab.com/en/software/bambu-studio/3mf-compatibility",
     "title": "Bambu Studio 3mf Compatibility | Bambu Lab Wiki",
-    "accessed": "2026-10-12",
-    "characters": 5151,
-    "sha256": "6ccdbc1cb448a97030f319c6922048402974fa13536f4e3bf2cd4d3b417c0035",
-    "status": "readable"
+    "supported_claims": [
+      "3MF 兼容性与可编辑模型、路径文件区别"
+    ],
+    "applicability": "官方 Wiki 持续更新；既有摘要不固定软件版本，执行时按当前机型/材料/版本核对",
+    "previous_capture": {
+      "accessed": "2026-10-12",
+      "characters": 5151,
+      "sha256": "6ccdbc1cb448a97030f319c6922048402974fa13536f4e3bf2cd4d3b417c0035",
+      "status": "readable"
+    },
+    "review_status": "historical_capture_not_rechecked_this_revision",
+    "review_note": "保留此前登记的提取摘要；本轮未重新读取正文，不将历史访问日期当作重新核验。"
   },
   {
     "id": "B22",
     "url": "https://wiki.bambulab.com/en/knowledge-sharing/common-print-quality-problem",
     "title": "Common print quality problems and solutions | Bambu Lab Wiki",
-    "accessed": "2026-10-12",
-    "characters": 33297,
-    "sha256": "fd4beacdd457d0c54be9f1daee71ad91275922130497d2aeeb67f3c3d2117ba9",
-    "status": "readable"
+    "supported_claims": [
+      "常见实物缺陷的差异诊断"
+    ],
+    "applicability": "官方 Wiki 持续更新；既有摘要不固定软件版本，执行时按当前机型/材料/版本核对",
+    "previous_capture": {
+      "accessed": "2026-10-12",
+      "characters": 33297,
+      "sha256": "fd4beacdd457d0c54be9f1daee71ad91275922130497d2aeeb67f3c3d2117ba9",
+      "status": "readable"
+    },
+    "review_status": "historical_capture_not_rechecked_this_revision",
+    "review_note": "保留此前登记的提取摘要；本轮未重新读取正文，不将历史访问日期当作重新核验。"
   },
   {
     "id": "B24",
     "url": "https://github.com/bambulab/BambuStudio/wiki/Command-Line-Usage",
     "title": "Command Line Usage · bambulab/BambuStudio Wiki · GitHub",
-    "accessed": "2026-10-12",
-    "characters": 3504,
-    "sha256": "7e3dfefc6554a48e142d3e2947d2e3604c1c2e6b68b3d598f1dbc6c2def36afd",
-    "status": "readable"
+    "supported_claims": [
+      "CLI 值 > 加载 JSON > 3MF 内设置",
+      "加载设置需完整 JSON；空材料槽保留原工程对应槽",
+      "slice 0 是所有盘；arrange 0 关闭排列；不同导出类型"
+    ],
+    "applicability": "官方 CLI wiki 2026-03-31 修订；实际安装 CLI 能力仍以 --help 为准",
+    "previous_capture": {
+      "accessed": "2026-10-12",
+      "characters": 3504,
+      "sha256": "7e3dfefc6554a48e142d3e2947d2e3604c1c2e6b68b3d598f1dbc6c2def36afd",
+      "status": "readable"
+    },
+    "review_status": "checked_selected_sections",
+    "review_note": "本轮经 web 读取完整 Command manual 和三种切片示例；页面标示 2026-03-31 编辑。",
+    "checked_on": "2026-10-12"
   },
   {
     "id": "B25",
     "url": "https://wiki.bambulab.com/en/software/bambu-studio/parameter/strength-advance-settings",
     "title": "Strength Advanced Setting - Bambu Studio | Bambu Lab Wiki",
-    "accessed": "2026-10-12",
-    "characters": 8990,
-    "sha256": "8c60c71ce6c8417abaed86091f7ea6cb8a3018e56b3716a79fadb7d6f1747a52",
-    "status": "readable"
+    "supported_claims": [
+      "填充与墙搭接及高级强度参数"
+    ],
+    "applicability": "官方 Wiki 持续更新；既有摘要不固定软件版本，执行时按当前机型/材料/版本核对",
+    "previous_capture": {
+      "accessed": "2026-10-12",
+      "characters": 8990,
+      "sha256": "8c60c71ce6c8417abaed86091f7ea6cb8a3018e56b3716a79fadb7d6f1747a52",
+      "status": "readable"
+    },
+    "review_status": "historical_capture_not_rechecked_this_revision",
+    "review_note": "保留此前登记的提取摘要；本轮未重新读取正文，不将历史访问日期当作重新核验。"
   },
   {
     "id": "B26",
     "url": "https://wiki.bambulab.com/en/software/bambu-studio/layer-height",
     "title": "Layer height | Bambu Lab Wiki",
-    "accessed": "2026-10-12",
-    "characters": 5764,
-    "sha256": "9eb95100fe019cc4d33aebc8ff2d52d21e8c5959cb8a7e89ff8d8ddf6d98bbe2",
-    "status": "readable"
+    "supported_claims": [
+      "层高与喷嘴/首层的关系"
+    ],
+    "applicability": "官方 Wiki 持续更新；既有摘要不固定软件版本，执行时按当前机型/材料/版本核对",
+    "previous_capture": {
+      "accessed": "2026-10-12",
+      "characters": 5764,
+      "sha256": "9eb95100fe019cc4d33aebc8ff2d52d21e8c5959cb8a7e89ff8d8ddf6d98bbe2",
+      "status": "readable"
+    },
+    "review_status": "historical_capture_not_rechecked_this_revision",
+    "review_note": "保留此前登记的提取摘要；本轮未重新读取正文，不将历史访问日期当作重新核验。"
   },
   {
     "id": "B27",
     "url": "https://wiki.bambulab.com/en/software/bambu-studio/sequent-print",
     "title": "Print-by-object | Bambu Lab Wiki",
-    "accessed": "2026-10-12",
-    "characters": 3056,
-    "sha256": "99d56922937d4bc2f81a4a1a4c3cbfd13c46b5f86cd9a06491897004bf200dc4",
-    "status": "readable"
+    "supported_claims": [
+      "逐件打印需工具头/横杆净空"
+    ],
+    "applicability": "官方 Wiki 持续更新；既有摘要不固定软件版本，执行时按当前机型/材料/版本核对",
+    "previous_capture": {
+      "accessed": "2026-10-12",
+      "characters": 3056,
+      "sha256": "99d56922937d4bc2f81a4a1a4c3cbfd13c46b5f86cd9a06491897004bf200dc4",
+      "status": "readable"
+    },
+    "review_status": "historical_capture_not_rechecked_this_revision",
+    "review_note": "保留此前登记的提取摘要；本轮未重新读取正文，不将历史访问日期当作重新核验。"
   },
   {
     "id": "B28",
     "url": "https://wiki.bambulab.com/en/software/bambu-studio/slow-down-for-overhang",
     "title": "Slow Down for Overhangs | Bambu Lab Wiki",
-    "accessed": "2026-10-12",
-    "characters": 4545,
-    "sha256": "4762e9b40836900f2cfd21817fa441731c9c3ba46a21cdb352dcf0f55aa8e362",
-    "status": "readable"
+    "supported_claims": [
+      "悬垂速度需按局部路径判断"
+    ],
+    "applicability": "官方 Wiki 持续更新；既有摘要不固定软件版本，执行时按当前机型/材料/版本核对",
+    "previous_capture": {
+      "accessed": "2026-10-12",
+      "characters": 4545,
+      "sha256": "4762e9b40836900f2cfd21817fa441731c9c3ba46a21cdb352dcf0f55aa8e362",
+      "status": "readable"
+    },
+    "review_status": "historical_capture_not_rechecked_this_revision",
+    "review_note": "保留此前登记的提取摘要；本轮未重新读取正文，不将历史访问日期当作重新核验。"
   },
   {
     "id": "B29",
     "url": "https://wiki.bambulab.com/en/software/bambu-studio/parameter/line-width",
     "title": "Line width | Bambu Lab Wiki",
-    "accessed": "2026-10-12",
-    "characters": 5815,
-    "sha256": "157200cc2a6568220dda718e2f67774e7e9d7ce54d0c170865ee396195ba8762",
-    "status": "readable"
+    "supported_claims": [
+      "线宽、实际墙厚及桥接区别"
+    ],
+    "applicability": "官方 Wiki 持续更新；既有摘要不固定软件版本，执行时按当前机型/材料/版本核对",
+    "previous_capture": {
+      "accessed": "2026-10-12",
+      "characters": 5815,
+      "sha256": "157200cc2a6568220dda718e2f67774e7e9d7ce54d0c170865ee396195ba8762",
+      "status": "readable"
+    },
+    "review_status": "historical_capture_not_rechecked_this_revision",
+    "review_note": "保留此前登记的提取摘要；本轮未重新读取正文，不将历史访问日期当作重新核验。"
   },
   {
     "id": "B30",
     "url": "https://wiki.bambulab.com/en/software/bambu-studio/fill-patterns",
     "title": "Fill Pattern Introduction | Bambu Lab Wiki",
-    "accessed": "2026-10-12",
-    "characters": 15391,
-    "sha256": "078a621ba6f085cc955946765be2cfbb473ead440a62aa6775ccb55ccf33b4a8",
-    "status": "readable"
+    "supported_claims": [
+      "填充图案的使用取舍"
+    ],
+    "applicability": "官方 Wiki 持续更新；既有摘要不固定软件版本，执行时按当前机型/材料/版本核对",
+    "previous_capture": {
+      "accessed": "2026-10-12",
+      "characters": 15391,
+      "sha256": "078a621ba6f085cc955946765be2cfbb473ead440a62aa6775ccb55ccf33b4a8",
+      "status": "readable"
+    },
+    "review_status": "historical_capture_not_rechecked_this_revision",
+    "review_note": "保留此前登记的提取摘要；本轮未重新读取正文，不将历史访问日期当作重新核验。"
   },
   {
     "id": "B31",
     "url": "https://wiki.bambulab.com/en/h2s",
     "title": "H2S | Bambu Lab Wiki",
-    "accessed": "2026-10-12",
-    "characters": 7838,
-    "sha256": "ac622d187d80298b723b412a996ffc5b15af8dfaba80edf9bef39ab85564ccca",
-    "status": "readable"
+    "supported_claims": [
+      "H2S 型号入口；具体尺寸以安装预设为准"
+    ],
+    "applicability": "官方 Wiki 持续更新；既有摘要不固定软件版本，执行时按当前机型/材料/版本核对",
+    "previous_capture": {
+      "accessed": "2026-10-12",
+      "characters": 7838,
+      "sha256": "ac622d187d80298b723b412a996ffc5b15af8dfaba80edf9bef39ab85564ccca",
+      "status": "readable"
+    },
+    "review_status": "historical_capture_not_rechecked_this_revision",
+    "review_note": "保留此前登记的提取摘要；本轮未重新读取正文，不将历史访问日期当作重新核验。"
+  },
+  {
+    "id": "B32",
+    "url": "https://github.com/bambulab/BambuStudio/releases/tag/v02.08.04.57",
+    "title": "Bambu Studio 2.8.4 Public Beta release",
+    "checked_on": "2026-10-12",
+    "review_status": "checked_selected_sections",
+    "applicability": "v02.08.04.57；核对时发布索引另列 2.8.2.61 Public Release",
+    "supported_claims": [
+      "02.08.04.57 是 Public Beta",
+      "该 Beta release 注明其保存的 3MF 当时不支持上传 MakerWorld"
+    ],
+    "review_note": "本轮读取 release 标题、版本和兼容提示；不声明未来最新版。"
+  },
+  {
+    "id": "B33",
+    "url": "https://github.com/bambulab/BambuStudio/blob/v02.08.04.57/src/libslic3r/PrintConfig.cpp",
+    "title": "PrintConfig options and enums",
+    "checked_on": "2026-10-12",
+    "review_status": "checked_selected_sections",
+    "applicability": "v02.08.04.57",
+    "supported_claims": [
+      "top_one_wall_type 枚举",
+      "喷头流量类型与材料映射为独立配置",
+      "flush_into_infill/support/objects 说明及其 prime tower 条件"
+    ],
+    "review_note": "本轮读取相关配置定义及 tooltip，不代表整份源码审计。"
+  },
+  {
+    "id": "B34",
+    "url": "https://github.com/bambulab/BambuStudio/blob/v02.08.04.57/src/slic3r/GUI/GUI_ObjectList.cpp",
+    "title": "Object/part/modifier and native repair handling",
+    "checked_on": "2026-10-12",
+    "review_status": "checked_selected_sections",
+    "applicability": "v02.08.04.57",
+    "supported_claims": [
+      "对象/部件/参数修改器/负体积/支撑体区别",
+      "拆分/组装、局部设置及 Windows SDK 修复路径"
+    ],
+    "review_note": "本轮读取 add/merge/split、volume 类型、fix_model 相关段落。"
+  },
+  {
+    "id": "B35",
+    "url": "https://github.com/bambulab/BambuStudio/blob/v02.08.04.57/src/slic3r/GUI/GLCanvas3D.cpp",
+    "title": "Variable layers and nozzle-specific printable areas",
+    "checked_on": "2026-10-12",
+    "review_status": "checked_selected_sections",
+    "applicability": "v02.08.04.57",
+    "supported_claims": [
+      "Adaptive/Smooth 与层高编辑",
+      "尺度/旋转改变高度后需重新检查层高曲线",
+      "喷头独占打印区域与材料映射约束"
+    ],
+    "review_note": "本轮读取 LayersEditing 和喷头区域提示段落。"
+  },
+  {
+    "id": "B36",
+    "url": "https://github.com/bambulab/BambuStudio/blob/v02.08.04.57/src/libslic3r/Print.cpp",
+    "title": "Slicing compatibility and prime tower constraints",
+    "checked_on": "2026-10-12",
+    "review_status": "checked_selected_sections",
+    "applicability": "v02.08.04.57",
+    "supported_claims": [
+      "Organic 支撑与可变层高不兼容",
+      "多对象使用擦料塔需层序匹配",
+      "擦料塔作用与实际路径占位"
+    ],
+    "review_note": "本轮读取 validate、has_wipe_tower 及生成/净空片段，避开将 #if 0 旧逻辑当现行条件。"
+  },
+  {
+    "id": "B37",
+    "url": "https://github.com/bambulab/BambuStudio/blob/v02.08.04.57/src/slic3r/GUI/Gizmos/GLGizmoSimplify.cpp",
+    "title": "Mesh simplification controls",
+    "checked_on": "2026-10-12",
+    "review_status": "checked_selected_sections",
+    "applicability": "v02.08.04.57",
+    "supported_claims": [
+      "按目标三角形数或误差参数简化",
+      "减少面数需要另外验证几何特征"
+    ],
+    "review_note": "本轮读取简化参数与执行分支；未执行原生简化测试。"
+  },
+  {
+    "id": "B38",
+    "url": "https://github.com/bambulab/BambuStudio/blob/v02.08.04.57/resources/profiles/BBL/filament/Bambu%20TPU%20for%20AMS%20%40base.json",
+    "title": "Bambu TPU for AMS base profile",
+    "checked_on": "2026-10-12",
+    "review_status": "checked_selected_sections",
+    "applicability": "v02.08.04.57；基类不是所有机器的完整配置",
+    "supported_claims": [
+      "该 profile 限定兼容 AMS 且不低于 55D 的 TPU",
+      "不能将 TPU for AMS profile 套用普通软 TPU"
+    ],
+    "review_note": "本轮读取基类 description 和继承标识。"
+  },
+  {
+    "id": "B39",
+    "url": "https://github.com/bambulab/BambuStudio/blob/v02.08.04.57/resources/profiles/BBL/filament/Bambu%20PETG%20HF%20%40base.json",
+    "title": "Bambu PETG HF base profile",
+    "checked_on": "2026-10-12",
+    "review_status": "checked_selected_sections",
+    "applicability": "v02.08.04.57；最终值需机型子预设",
+    "supported_claims": [
+      "PETG HF 有独立牌号身份及板温/冷却等配置",
+      "不能只重命名 Generic/Basic 配置代替系列预设"
+    ],
+    "review_note": "本轮读取系列身份、继承、板温与冷却项。"
+  },
+  {
+    "id": "B40",
+    "url": "https://github.com/bambulab/BambuStudio/blob/v02.08.04.57/src/libslic3r/Format/bbs_3mf.cpp",
+    "title": "Bambu 3MF project serialization",
+    "checked_on": "2026-10-12",
+    "review_status": "checked_selected_sections",
+    "applicability": "v02.08.04.57",
+    "supported_claims": [
+      "项目/对象/层高/局部配置分别序列化",
+      "3MF 含多文件资源、组件和实例关系",
+      "模型与切片信息不同"
+    ],
+    "review_note": "本轮读取格式版本、Metadata 文件名及模型/组件字段；不证明当前脚本覆盖全部原生格式。"
+  },
+  {
+    "id": "B41",
+    "url": "https://github.com/bambulab/BambuStudio/blob/v02.08.04.57/src/slic3r/GUI/Plater.cpp",
+    "title": "Native project/model import",
+    "checked_on": "2026-10-12",
+    "review_status": "checked_selected_sections",
+    "applicability": "v02.08.04.57",
+    "supported_claims": [
+      "完整工程加载与几何导入需区分",
+      "STEP/网格导入后需核查对象和几何"
+    ],
+    "review_note": "本轮读取该文件及相关导入符号，未对每种格式执行原生测试。"
+  },
+  {
+    "id": "B42",
+    "url": "https://github.com/bambulab/BambuStudio/blob/v02.08.04.57/src/BambuStudio.cpp",
+    "title": "Native CLI output, empty filament slots and prime-volume normalization",
+    "checked_on": "2026-10-12",
+    "review_status": "checked_selected_sections_and_native_test",
+    "applicability": "v02.08.04.57; standard single-filament native reslice",
+    "supported_claims": [
+      "CLI outputdir prefixes the export filename",
+      "Empty filament slots preserve embedded materials",
+      "A zero-length filament list on native 3MF triggers prime_volume=45; one preserved empty slot avoids this without disabling checks"
+    ],
+    "review_note": "Relevant source branches plus actual synthetic manifest/reslice verification; no all-version claim."
+  },
+  {
+    "id": "B43",
+    "url": "https://github.com/bambulab/BambuStudio/blob/v02.08.04.57/src/libslic3r/PresetBundle.cpp#L4536-L4580",
+    "title": "Native preset include differences against runtime defaults",
+    "checked_on": "2026-10-12",
+    "review_status": "checked_selected_sections",
+    "applicability": "v02.08.04.57; bounded include support",
+    "supported_claims": [
+      "Included configurations apply their differences from native defaults before child overrides",
+      "Pure dictionary inheritance does not establish complete native parity"
+    ],
+    "review_note": "Only the relevant loader branches were checked; other parameter-bearing includes require native complete configuration."
   }
 ]
