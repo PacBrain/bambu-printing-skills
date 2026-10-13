@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Install Agent Skills into a chosen skill directory without replacing other skills."""
+"""Install skills by copying or linking into a skill directory."""
 from __future__ import annotations
 
 import argparse
@@ -72,7 +72,7 @@ def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
     destinations = parser.add_mutually_exclusive_group()
     destinations.add_argument("--dest", type=Path, help="Skill-parent directory; default: ~/.agents/skills")
-    destinations.add_argument("--codex-home", type=Path, help="Legacy alias: install under DIR/skills")
+    destinations.add_argument("--codex-home", type=Path, help=argparse.SUPPRESS)
     parser.add_argument("--mode", choices=("copy", "symlink"), default="copy", help="Copy by default; symlink keeps a development checkout linked")
     parser.add_argument("--dry-run", action="store_true", help="Check and show the destination without writing files")
     args = parser.parse_args(argv)
