@@ -1,62 +1,60 @@
 # Bambu Printing Skills
 
-面向各类智能体的 Bambu Studio 打印准备、材料与硬件适配、切片检查和排错技能，采用开放的 [Agent Skills 格式](https://agentskills.io/specification)。依据拓竹官方资料编写，独立维护，不是拓竹官方软件。技能内容不依赖特定模型、客户端或 MCP 服务。
+Bambu Studio 选材、打印准备、切片、校准和排错 Skills。采用 [Agent Skills 格式](https://agentskills.io/specification)，从 [SKILL.md](skills/bambu-printing/SKILL.md) 按任务加载参考资料和脚本。
 
-## 使用与安装
+## 功能
 
-- 支持 Agent Skills 的客户端：将完整 `skills/bambu-printing` 目录安装到该客户端实际扫描的技能目录。
-- 能读取文件、但没有技能发现功能的智能体：直接读取 [SKILL.md](skills/bambu-printing/SKILL.md)，再按任务读取其中引用的资料。
-- 没有本机 Studio 访问能力的智能体：可以用于选材、切片方案、工程清单和已有文件分析；实际切片、原生重开与打印验收仍需对应软件或设备环境。
+- 材料、机器、喷嘴、AMS 与打印板适配。
+- 模型修复、摆放、层高、填充、支撑、多盘与多材料工作流。
+- 预设、切片、工程检查、校准和打印故障定位。
+
+## 安装
 
 ```bash
-# 默认复制到 ~/.agents/skills；不需要符号链接权限
-python install.py
-# 指定客户端或项目的技能父目录
-python install.py --dest /path/to/agent/skills
-# 查看操作，不写入文件
-python install.py --dest /path/to/agent/skills --dry-run
-# 开发时可将技能链接到当前源码目录
-python install.py --dest /path/to/agent/skills --mode symlink
+git clone https://github.com/PacBrain/bambu-printing-skills.git
+cd bambu-printing-skills
 ```
 
-安装器不会覆盖不同内容；同一链接或内容一致的副本可重复安装。源码更新后，已有副本不同会被拒绝，需先保存自己的改动并选择新的目标位置或手动替换；符号链接跟随源码更新。保留显式 `--codex-home DIR`，等价于 `--dest DIR/skills`；默认路径不读取 `CODEX_HOME`，也不自动迁移旧安装。Windows 使用同样的 Python 命令和本机路径。
+按需要选择安装命令：
 
-`~/.agents/skills` 是跨客户端约定，具体发现和启用方式取决于客户端。[Gemini CLI](https://geminicli.com/docs/cli/skills/) 明确支持此路径；[Claude Code](https://code.claude.com/docs/en/skills) 可用 `--dest ~/.claude/skills`，项目安装则指定 `.claude/skills`。其他客户端以其文档为准。`agents/openai.yaml` 仅为可选的 OpenAI 界面元数据，不参与脚本运行，也不表示仅限 Codex。
+```bash
+# 安装到 ~/.agents/skills
+python install.py
+# 指定 agent 或项目使用的 skills 目录
+python install.py --dest /path/to/skills
+# 预览安装位置
+python install.py --dest /path/to/skills --dry-run
+# 链接源码目录，随仓库更新
+python install.py --dest /path/to/skills --mode symlink
+```
 
-通用调用示例：
+安装器使用 Python 3.10+，默认复制完整技能目录。相同版本可重复安装；更新副本时先保存本地修改，再替换目录。符号链接模式跟随源码更新。
 
-> 使用 bambu-printing 技能，为指定机器、喷嘴、打印板和材料准备这个模型的省料打印工程，并检查实际切片。
+也可直接复制 `skills/bambu-printing` 到 agent 的技能目录。使用自定义加载方式时，让 agent 读取其中的 `SKILL.md`；脚本和参考文件路径均以技能目录为基准。`agents/` 保存客户端使用的界面元数据。
 
-客户端可能使用 `/bambu-printing`、`$bambu-printing` 或自动选择；安装本身不保证这些调用方式均可用。
+## 使用
 
-## 脚本环境
+> 使用 bambu-printing，为指定机器、喷嘴、打印板和材料准备打印工程，并检查切片结果。
 
-Python 3.10+。依赖文件随技能分发；仓库根目录的 `requirements.txt` 引用同一份文件。建议使用独立环境，从仓库根目录运行：
+Python 3.10+ 和本机 Bambu Studio。依赖随技能目录提供：
 
 ```bash
 python -m venv .venv
-# macOS / Linux
 .venv/bin/python -m pip install -r requirements.txt
-.venv/bin/python skills/bambu-printing/scripts/bambu.py --help
+.venv/bin/python skills/bambu-printing/scripts/bambu.py env
 .venv/bin/python -m unittest discover -s tests -v
 ```
 
-Windows 将 `.venv/bin/python` 换成 `.venv\Scripts\python.exe`。若只安装了技能目录，在自己选择的环境中运行 `python -m pip install -r /absolute/skill/requirements.txt`，再用绝对路径调用 `/absolute/skill/scripts/bambu.py`；不依赖仓库根目录或固定工作目录。
+Windows 使用 `.venv\Scripts\python.exe`。安装后的技能可用 `python -m pip install -r /path/to/bambu-printing/requirements.txt` 配置依赖，并通过脚本绝对路径调用。
 
-非默认 Studio 安装通过全局 `--binary`、`--profiles` 参数指定。`env` 检查本机软件与配置；`profiles` 准备预设；`preflight` 检查模型与排布；`slice --manifest` 将明确的模型清单应用到切片；`reslice --project` 用于已有工程；`inspect` 检查 3MF 内容。具体参数和 JSON 示例见[自动化参考](skills/bambu-printing/references/automation.md)，以各子命令 `--help` 为准。
+`profiles` 准备预设，`preflight` 检查模型与排布，`slice --manifest` 切片，`reslice --project` 保留工程设置重切片，`inspect` 读取 3MF。参数和示例见[自动化参考](skills/bambu-printing/references/automation.md)。
 
-## 覆盖与证据
+## 验证与资料
 
-材料参考覆盖 PLA 系列、PETG、TPU、ABS/ASA、PC、尼龙、纤维增强和支撑材料；硬件、AMS、干燥、校准、缺陷及同盘/逐件排布按主题整理。只按任务加载相关参考。
+CI 覆盖 Windows、macOS、Linux 上的 Python 3.10/3.14 安装与离线测试，以及官方 `skills-ref` 格式校验。软件集成结果和待验证项目见[验证记录](skills/bambu-printing/references/validation.md)。
 
-[验证记录](skills/bambu-printing/references/validation.md)列明实际切片与原生工程重开的软件版本、机器组合和边界。标准单热端、单材料的实测证据不能推广到全部机型、材料或多热端组合。高流量和多材料项目需按实际配置验证。
+[来源索引](skills/bambu-printing/references/sources.md)记录官方文档、具体版本和适用条件。格式检查命令：`skills-ref validate skills/bambu-printing`。
 
-CI 只检查 Linux、macOS、Windows 的技能安装包与离线 Python 行为；通过 CI 不代表对应平台已运行 Studio，也不代表每种智能体客户端均已实测。CAD 有效、路径生成、原生重开和实物打印分别报告。工具不连接或启动打印机，文件准备不隐含发送或打印授权。
+## 许可
 
-格式验证另用官方 Agent Skills `skills-ref`，CI 固定到提交 `69ef37e9424c0a7ea9dd2293b559e43ec8176379` 并使用 Python 3.14。安装该校验器后运行 `skills-ref validate skills/bambu-printing`。这项检查验证标准元数据；客户端自带的旧版校验器可能尚不认识 `compatibility` 等标准字段，不能以此判断技能格式无效。
-
-## 维护与许可
-
-修改参数知识时核对具体[官方来源](skills/bambu-printing/references/sources.md)、配置版本和适用条件；行为变化需有能暴露问题的测试。公开测试只使用合成几何，不含客户模型、专利原件或私人作业文件。
-
-原创内容 [MIT](LICENSE)；第三方权利见 [NOTICE.md](NOTICE.md)。完整技能目录自带同样的许可和说明，可独立分发。
+原创代码和文档采用 [MIT](LICENSE) 许可，引用资料见 [NOTICE.md](NOTICE.md)。许可文件随技能目录分发。

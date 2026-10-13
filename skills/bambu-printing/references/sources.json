@@ -310,7 +310,7 @@
     "url": "https://wiki.bambulab.com/en/bambu-studio/parameter",
     "title": "Bambu Studio Print Settings | Bambu Lab Wiki",
     "supported_claims": [
-      "参数导航；不能证明所有子页面已读取"
+      "参数导航；按任务读取对应子页"
     ],
     "applicability": "官方 Wiki 持续更新；既有摘要不固定软件版本，执行时按当前机型/材料/版本核对",
     "previous_capture": {
@@ -599,7 +599,7 @@
     "title": "Bambu TPU for AMS base profile",
     "checked_on": "2026-10-12",
     "review_status": "checked_selected_sections",
-    "applicability": "v02.08.04.57；基类不是所有机器的完整配置",
+    "applicability": "v02.08.04.57；具体机器使用子预设",
     "supported_claims": [
       "该 profile 限定兼容 AMS 且不低于 55D 的 TPU",
       "不能将 TPU for AMS profile 套用普通软 TPU"

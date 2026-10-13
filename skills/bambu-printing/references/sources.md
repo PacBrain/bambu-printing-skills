@@ -24,7 +24,7 @@
 | B16 | [Seam settings — Bambu Lab Wiki](https://wiki.bambulab.com/en/software/bambu-studio/Seam) | 接缝位置及 scarf seam 适用条件 | 持续更新 Wiki；历史登记，执行前重查 |
 | B17 | [Support — Bambu Lab Wiki](https://wiki.bambulab.com/en/software/bambu-studio/support) | 支撑类型、界面和间隙需按材料/几何选择 | 持续更新 Wiki；历史登记，执行前重查 |
 | B18 | [Brim — Bambu Lab Wiki](https://wiki.bambulab.com/en/software/bambu-studio/auto-brim) | 裙边与悬垂支撑不同，宽度和间隙影响附着 | 持续更新 Wiki；历史登记，执行前重查 |
-| B19 | [Bambu Studio Print Settings — Bambu Lab Wiki](https://wiki.bambulab.com/en/bambu-studio/parameter) | 参数导航；不能证明所有子页面已读取 | 持续更新 Wiki；历史登记，执行前重查 |
+| B19 | [Bambu Studio Print Settings — Bambu Lab Wiki](https://wiki.bambulab.com/en/bambu-studio/parameter) | 参数导航；按任务读取对应子页 | 持续更新 Wiki；历史登记，执行前重查 |
 | B20 | [View slicing information — Bambu Lab Wiki](https://wiki.bambulab.com/en/software/bambu-studio/view-slicing-information) | 切片预览检查路径类型、速度及流量 | 持续更新 Wiki；历史登记，执行前重查 |
 | B21 | [Bambu Studio 3mf Compatibility — Bambu Lab Wiki](https://wiki.bambulab.com/en/software/bambu-studio/3mf-compatibility) | 3MF 兼容性与可编辑模型、路径文件区别 | 持续更新 Wiki；历史登记，执行前重查 |
 | B22 | [Common print quality problems and solutions — Bambu Lab Wiki](https://wiki.bambulab.com/en/knowledge-sharing/common-print-quality-problem) | 常见实物缺陷的差异诊断 | 持续更新 Wiki；历史登记，执行前重查 |
@@ -42,12 +42,12 @@
 | B35 | [Variable layers and nozzle-specific printable areas](https://github.com/bambulab/BambuStudio/blob/v02.08.04.57/src/slic3r/GUI/GLCanvas3D.cpp) | Adaptive/Smooth 与层高编辑；尺度/旋转改变高度后需重新检查层高曲线；喷头独占打印区域与材料映射约束 | v02.08.04.57；当前核对 |
 | B36 | [Slicing compatibility and prime tower constraints](https://github.com/bambulab/BambuStudio/blob/v02.08.04.57/src/libslic3r/Print.cpp) | Organic 支撑与可变层高不兼容；多对象使用擦料塔需层序匹配；擦料塔作用与实际路径占位 | v02.08.04.57；当前核对 |
 | B37 | [Mesh simplification controls](https://github.com/bambulab/BambuStudio/blob/v02.08.04.57/src/slic3r/GUI/Gizmos/GLGizmoSimplify.cpp) | 按目标三角形数或误差参数简化；减少面数需要另外验证几何特征 | v02.08.04.57；当前核对 |
-| B38 | [Bambu TPU for AMS base profile](https://github.com/bambulab/BambuStudio/blob/v02.08.04.57/resources/profiles/BBL/filament/Bambu%20TPU%20for%20AMS%20%40base.json) | 该 profile 限定兼容 AMS 且不低于 55D 的 TPU；不能将 TPU for AMS profile 套用普通软 TPU | v02.08.04.57；基类不是所有机器的完整配置；当前核对 |
-| B39 | [Bambu PETG HF base profile](https://github.com/bambulab/BambuStudio/blob/v02.08.04.57/resources/profiles/BBL/filament/Bambu%20PETG%20HF%20%40base.json) | PETG HF 有独立牌号身份及板温/冷却等配置；不能只重命名 Generic/Basic 配置代替系列预设 | v02.08.04.57；最终值需机型子预设；当前核对 |
+| B38 | [Bambu TPU for AMS base profile](https://github.com/bambulab/BambuStudio/blob/v02.08.04.57/resources/profiles/BBL/filament/Bambu%20TPU%20for%20AMS%20%40base.json) | 该 profile 限定兼容 AMS 且不低于 55D 的 TPU；普通软 TPU 使用对应预设 | v02.08.04.57；具体机器使用子预设；当前核对 |
+| B39 | [Bambu PETG HF base profile](https://github.com/bambulab/BambuStudio/blob/v02.08.04.57/resources/profiles/BBL/filament/Bambu%20PETG%20HF%20%40base.json) | PETG HF 有独立牌号身份及板温/冷却等配置；按系列选择专用预设 | v02.08.04.57；最终值需机型子预设；当前核对 |
 | B40 | [Bambu 3MF project serialization](https://github.com/bambulab/BambuStudio/blob/v02.08.04.57/src/libslic3r/Format/bbs_3mf.cpp) | 项目/对象/层高/局部配置分别序列化；3MF 含多文件资源、组件和实例关系；模型与切片信息不同 | v02.08.04.57；当前核对 |
 | B41 | [Native project/model import](https://github.com/bambulab/BambuStudio/blob/v02.08.04.57/src/slic3r/GUI/Plater.cpp) | 完整工程加载与几何导入需区分；STEP/网格导入后需核查对象和几何 | v02.08.04.57；当前核对 |
 
-机器/材料兼容和温度取当前具体牌号文档及安装配置；页面导航不能替代子页证据。固定源码链接仅支持所列版本，源码存在某字段不证明该功能在所有硬件或平台可用。更新来源时记录读取内容和适用范围，不只改日期。
+机器/材料兼容和温度取具体牌号文档及安装配置。固定源码链接对应表列版本；功能使用前核对目标硬件和平台。更新来源时记录读取内容、适用范围与日期。
 
 [sources.json](sources.json) 保留逐项状态、用途和历史提取指纹；原生测试结果见 [validation.md](validation.md)。
 
